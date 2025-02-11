@@ -1,0 +1,54 @@
+title: Marco Operativo Hotel Italia (MOHI)
+description: Sistema Integrado de Gestión Hotelera
+theme: just-the-docs
+
+url: https://hotel-italia.github.io
+baseurl: "/mohi" # Ajustar según el nombre de tu repositorio
+
+# Configuración del sitio
+search_enabled: true
+search.previews: 3
+search.heading_level: 4
+heading_anchors: true
+
+# Tema y color
+color_scheme: light
+
+# Configuración de la navegación
+nav:
+  - title: Inicio
+    url: /
+  - title: Metodología
+    url: /metodologia
+    children:
+      - title: Overview
+        url: /metodologia/index
+      - title: Holacracy
+        url: /metodologia/holacracy
+      - title: OKR
+        url: /metodologia/okr
+      - title: Lean
+        url: /metodologia/lean
+  - title: Departamentos
+    url: /departamentos
+    children:
+      - title: Recepción
+        url: /departamentos/recepcion
+      - title: Housekeeping
+        url: /departamentos/housekeeping
+      - title: Contabilidad
+        url: /departamentos/contabilidad
+
+# Excluir archivos y carpetas
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Información del repositorio
+repository: hotel-italia/mohi # Ajustar según tu usuario/organización

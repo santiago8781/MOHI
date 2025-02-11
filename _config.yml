@@ -1,0 +1,47 @@
+title: Marco Operativo Hotel Italia (MOHI)
+description: Sistema Integrado de Gestión Hotelera
+theme: just-the-docs
+
+# Configuración del sitio
+search_enabled: true
+search.previews: 3
+search.heading_level: 4
+search.previews: 3
+heading_anchors: true
+
+# Configuración de navegación
+nav:
+  - title: Marco Operativo
+    children:
+      - title: Metodología MOHI
+        url: /metodologia
+      - title: Estructura Organizacional
+        url: /estructura
+      - title: Mejora Continua
+        url: /mejora-continua
+
+  - title: Departamentos
+    children:
+      - title: Recepción
+        children:
+          - title: Overview
+            url: /departamentos/recepcion
+          - title: Decisiones Autónomas
+            url: /departamentos/recepcion/decisiones-autonomas
+          - title: Objetivos OKR
+            url: /departamentos/recepcion/objetivos-okr
+          - title: KPIs
+            url: /departamentos/recepcion/kpis
+          - title: Mejora Continua
+            url: /departamentos/recepcion/mejora-continua
+
+# Configuración de color
+color_scheme: light
+
+# Enlaces auxiliares
+aux_links:
+  "MOHI en GitHub":
+    - "//github.com/hotel-italia/mohi"
+
+# Footer content
+footer_content: "Copyright &copy; 2024 Hotel Italia. Todos los derechos reservados."
