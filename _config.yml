@@ -1,47 +1,43 @@
 title: Marco Operativo Hotel Italia (MOHI)
 description: Sistema Integrado de Gestión Hotelera
 theme: just-the-docs
+url: https://santiago8781.github.io/MOHI
 
-# Configuración del sitio
+# Site settings
+lang: es
+permalink: pretty
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", ".travis.yml", ".git", ".gitignore"]
+
+# Theme settings
 search_enabled: true
-search.previews: 3
-search.heading_level: 4
-search.previews: 3
+search:
+  heading_level: 4
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: true
+
+# Enable or disable heading anchors
 heading_anchors: true
 
-# Configuración de navegación
-nav:
-  - title: Marco Operativo
-    children:
-      - title: Metodología MOHI
-        url: /metodologia
-      - title: Estructura Organizacional
-        url: /estructura
-      - title: Mejora Continua
-        url: /mejora-continua
-
-  - title: Departamentos
-    children:
-      - title: Recepción
-        children:
-          - title: Overview
-            url: /departamentos/recepcion
-          - title: Decisiones Autónomas
-            url: /departamentos/recepcion/decisiones-autonomas
-          - title: Objetivos OKR
-            url: /departamentos/recepcion/objetivos-okr
-          - title: KPIs
-            url: /departamentos/recepcion/kpis
-          - title: Mejora Continua
-            url: /departamentos/recepcion/mejora-continua
-
-# Configuración de color
+# Color scheme
 color_scheme: light
 
-# Enlaces auxiliares
-aux_links:
-  "MOHI en GitHub":
-    - "//github.com/hotel-italia/mohi"
+# External navigation links
+nav_external_links:
+  - title: MOHI en GitHub
+    url: https://github.com/santiago8781/MOHI
+    hide_icon: false
 
 # Footer content
-footer_content: "Copyright &copy; 2024 Hotel Italia. Todos los derechos reservados."
+footer_content: "Copyright &copy; 2024 Hotel Italia. Distribuido por una <a href=\"https://github.com/santiago8781/MOHI/blob/main/LICENSE\">licencia MIT.</a>"
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Volver arriba"
+
+# Google Analytics Tracking (optional)
+# ga_tracking: UA-XXXXXXXX-X
+# ga_tracking_anonymize_ip: true
