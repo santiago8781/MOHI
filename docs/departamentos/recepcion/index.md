@@ -11,7 +11,7 @@ Este departamento opera bajo el Marco Operativo Hotel Italia (MOHI), que integra
 - Gestión de turnos
 
 ### 2. Objetivos y Resultados Clave (OKR)
-#### Objetivos Q1 2024
+#### Objetivos Q1 2025
 1. Mejorar Satisfacción del Cliente
    - KR1: Alcanzar NPS >80
    - KR2: Reducir tiempo de check-in a <8 minutos

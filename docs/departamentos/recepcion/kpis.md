@@ -1,6 +1,6 @@
 # KPIs - Recepción
 
-## Indicadores Diarios
+## Indicadores Diarios - Turno
 
 | KPI | Descripción | Meta | Método de Medición | Responsable |
 |-----|-------------|------|-------------------|-------------|
