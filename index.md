@@ -33,8 +33,8 @@ El Marco Operativo Hotel Italia (MOHI) es un sistema integrado que combina tres 
 
 ## Departamentos
 
-- [Recepción](./departamentos/recepcion)
-- [Housekeeping](./departamentos/housekeeping)
+- [Recepción]({{ site.baseurl }}/departamentos/recepcion)
+- [Housekeeping]({{ site.baseurl }}/departamentos/housekeeping)
 
 ## Enlaces Rápidos
 
