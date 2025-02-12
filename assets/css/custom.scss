@@ -1,0 +1,67 @@
+---
+---
+
+// Custom styles
+.site-header {
+  background-color: #A5C9C9;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.site-title {
+  color: #1B4B4B !important;
+  font-weight: 500;
+}
+
+.navigation-list-link {
+  color: #1B4B4B !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #1B4B4B;
+  font-weight: 500;
+}
+
+.main-header {
+  background-color: #F5F9F9;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: #1B4B4B !important;
+  background-image: none;
+  box-shadow: none;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+}
+
+.site-footer {
+  color: #666;
+  border-top: 1px solid #e8e8e8;
+  padding-top: 1rem;
+}
+
+// Italian flag accent
+.italia-accent {
+  display: inline-block;
+  margin: 0 0.5rem;
+  
+  span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 2px;
+    
+    &.green { background-color: #009246; }
+    &.white { background-color: #ffffff; border: 1px solid #ddd; }
+    &.red { background-color: #ce2b37; }
+  }
+}
