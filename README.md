@@ -1,124 +1,121 @@
 # Marco Operativo Hotel Italia (MOHI)
 
-Este repositorio contiene la documentación completa del Marco Operativo del Hotel Italia, implementando una metodología híbrida que combina Holacracy, OKR y Lean.
+Sistema integrado de gestión hotelera que combina las metodologías Holacracy, OKR y Lean para optimizar las operaciones del Hotel Italia en Cuenca, Ecuador.
 
-## Metodología MOHI
+## 🏨 Acerca del Proyecto
 
-### 1. Estructura de Toma de Decisiones
-- **Decisiones Operativas (Holacracy)**
-  - Autonomía por área con presupuesto asignado
-  - Gestión dinámica de recursos
-  - Resolución directa de problemas
-- **Decisiones Estratégicas (OKR)**
-  - Objetivos trimestrales
-  - Alineación departamental
-  - Seguimiento mensual
+MOHI es un sistema de documentación integral que busca:
+- Estandarizar procesos operativos
+- Clarificar roles y responsabilidades
+- Establecer métricas de rendimiento (KPIs)
+- Facilitar la mejora continua
 
-### 2. Ritmo de Cambio
-- **Ciclos OKR (Trimestral)**
-  - Metas financieras
-  - Satisfacción del cliente
-  - Mejora de infraestructura
-- **Mejoras Lean (Continuas)**
-  - Optimización de procesos
-  - Reducción de desperdicios
-  - Sugerencias del personal
+### Metodologías Integradas
 
-### 3. Medición de Resultados
-- **Eficiencia de Procesos (Lean)**
-- **Resultados (OKR)**
-  - Diarios
-  - Semanales
-  - Mensuales
-- **Resolución de Tensiones (Holacracy)**
+1. **Holacracy para Autonomía Operativa**
+   - Toma de decisiones distribuida
+   - Roles claros y adaptables
+   - Resolución efectiva de tensiones
 
-## Estructura del Repositorio
+2. **OKR para Objetivos y Resultados**
+   - Metas claras y medibles
+   - Alineación estratégica
+   - Seguimiento continuo
+
+3. **Lean para Mejora Continua**
+   - Optimización de procesos
+   - Eliminación de desperdicios
+   - Mejora constante
+
+## 🛠️ Tecnologías Utilizadas
+
+- Jekyll 4.3.2
+- Just the Docs theme
+- GitHub Pages
+- GitHub Actions
+
+## 📁 Estructura del Proyecto
 
 ```
-docs/
-├── metodologia/         # Documentación metodológica
-├── departamentos/       # Documentación por departamento
-│   ├── recepcion/
-│   │   ├── index.md
-│   │   ├── decisiones-autonomas.md
-│   │   ├── objetivos-okr.md
-│   │   ├── procesos-lean.md
-│   │   └── kpis/
-│   ├── housekeeping/
-│   ├── contabilidad/
-│   ├── cocina/
-│   ├── restaurante/
-│   ├── mantenimiento/
-│   └── administracion/
-├── sistemas/
-├── reportes/
-└── formularios/
-
-assets/
-├── images/
-├── diagramas/
-└── templates/
+MOHI/
+│
+├── _config.yml           # Configuración de Jekyll
+├── Gemfile              # Dependencias de Ruby
+├── index.md             # Página principal
+│
+├── assets/              # Recursos estáticos
+│   ├── css/            # Estilos personalizados
+│   └── images/         # Imágenes y logos
+│
+├── _sass/              # Estilos SASS
+│   └── color_schemes/  # Esquemas de color personalizados
+│
+└── departamentos/      # Documentación por departamento
+    ├── recepcion/     
+    └── housekeeping/
 ```
 
-## Estado Actual
+## 🚀 Despliegue
 
-### Completado
-- [x] Estructura base del repositorio
-- [x] Configuración inicial de GitHub Pages
-- [x] Templates base para documentación
-- [x] Estructura de departamento de Recepción
-- [x] Configuración de GitHub Actions
+El sitio se despliega automáticamente en GitHub Pages a través de GitHub Actions cuando se hace push a la rama main.
 
-### En Progreso
-- [ ] Contenido departamento de Recepción
-- [ ] Templates actualizados con metodología MOHI
-- [ ] Estructura de otros departamentos
+### Flujo de Despliegue
 
-### Pendiente
-- [ ] Contenido de otros departamentos
-- [ ] Documentación de procesos interdepartamentales
-- [ ] Sistema de mejora continua
-- [ ] Guías de usuario
-- [ ] Documentación de sistemas
+1. Push a la rama main
+2. GitHub Actions ejecuta el workflow de Jekyll
+3. El sitio se construye y despliega
+4. Disponible en: https://santiago8781.github.io/MOHI/
 
-## Desarrollo Local
+## 💡 Características
 
-### Requisitos Previos
-- Ruby >= 2.7.0
-- Bundler
-- Jekyll
+- 🔍 Búsqueda integrada
+- 📱 Diseño responsive
+- 🎨 Tema personalizado con colores de Hotel Italia
+- 📖 Navegación intuitiva
+- 🔄 Despliegue automático
 
-### Instalación
-```bash
-# Clonar repositorio
-git clone https://github.com/santiago8781/MOHI.git
-cd MOHI
+## ⚙️ Configuración Local
 
-# Instalar dependencias
-bundle install
+Para ejecutar el sitio localmente:
 
-# Ejecutar servidor local
-bundle exec jekyll serve
-```
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/santiago8781/MOHI.git
+   ```
 
-### Estructura de Branches
-- `main`: Producción
-- `develop`: Desarrollo
-- `feature/*`: Nuevas características
-- `hotfix/*`: Correcciones urgentes
+2. Instalar dependencias:
+   ```bash
+   bundle install
+   ```
 
-## Contribuir
+3. Ejecutar el servidor:
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. Visitar `http://localhost:4000/MOHI/`
+
+## 📝 Mantenimiento
+
+Para actualizar la documentación:
+
+1. Crear o editar archivos markdown en la carpeta correspondiente
+2. Hacer commit de los cambios
+3. Push a la rama main
+4. El sitio se actualizará automáticamente
+
+## 👥 Contribución
 
 1. Fork del repositorio
-2. Crear branch de feature (`git checkout -b feature/nueva-caracteristica`)
-3. Commit de cambios (`git commit -am 'Agrega nueva característica'`)
-4. Push al branch (`git push origin feature/nueva-caracteristica`)
-5. Crear Pull Request
+2. Crear una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
+3. Commit de tus cambios (`git commit -m 'feat: Agrega nueva característica'`)
+4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
+5. Crear un Pull Request
 
-## Despliegue
+## 📄 Licencia
 
-El sitio se despliega automáticamente en GitHub Pages y está disponible en: https://santiago8781.github.io/MOHI/
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## Licencia
+## 📬 Contacto
 
-Copyright © 2024 Hotel Italia. Todos los derechos reservados.
+Hotel Italia - [Website](https://hotelitalia.com.ec)
