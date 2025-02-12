@@ -1,12 +1,19 @@
 title: Marco Operativo Hotel Italia (MOHI)
 description: Sistema Integrado de Gestión Hotelera
 theme: just-the-docs
-url: https://santiago8781.github.io/MOHI
 
-# Site settings
-lang: es
-permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", ".travis.yml", ".git", ".gitignore"]
+url: https://santiago8781.github.io
+baseurl: "/MOHI"
+
+# Build settings
+markdown: kramdown
+include:
+  - _pages
+  - departamentos
+  - formularios
+  - metodologia
+  - reportes
+  - sistemas
 
 # Theme settings
 search_enabled: true
@@ -31,13 +38,9 @@ nav_external_links:
     url: https://github.com/santiago8781/MOHI
     hide_icon: false
 
-# Footer content
-footer_content: "Copyright &copy; 2024 Hotel Italia. Distribuido por una <a href=\"https://github.com/santiago8781/MOHI/blob/main/LICENSE\">licencia MIT.</a>"
-
 # Back to top link
 back_to_top: true
 back_to_top_text: "Volver arriba"
 
-# Google Analytics Tracking (optional)
-# ga_tracking: UA-XXXXXXXX-X
-# ga_tracking_anonymize_ip: true
+# Footer content
+footer_content: "Copyright &copy; 2024 Hotel Italia. Distribuido por una <a href=\"https://github.com/santiago8781/MOHI/blob/main/LICENSE\">licencia MIT.</a>"
