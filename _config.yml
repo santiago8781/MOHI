@@ -7,6 +7,19 @@ url: "https://santiago8781.github.io"
 theme: just-the-docs
 color_scheme: light
 
+# Enable navigation
+navigation:
+  enabled: true
+
+# Sort pages by title by default
+sort:
+  enabled: true
+  by: 'title'
+
+# Navigation structure
+heading_anchors: true
+nav_sort: case_sensitive
+
 # Enable or disable the site search
 search_enabled: true
 
