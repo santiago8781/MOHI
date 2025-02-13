@@ -1,7 +1,7 @@
 title: Marco Operativo Hotel Italia (MOHI)
 description: Sistema Integrado de Gestión Hotelera
-baseurl: "/MOHI"
-url: "https://santiago8781.github.io"
+baseurl: ""
+url: "https://mohi.hotelitalia.com.ec"
 
 # Theme settings
 theme: just-the-docs
