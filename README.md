@@ -1,121 +1,77 @@
 # Marco Operativo Hotel Italia (MOHI)
 
-Sistema integrado de gestión hotelera que combina las metodologías Holacracy, OKR y Lean para optimizar las operaciones del Hotel Italia en Cuenca, Ecuador.
+Sistema Integrado de Gestión Hotelera - Copyright © 2025 Hotel Italia
 
-## 🏨 Acerca del Proyecto
+## Descripción
 
-MOHI es un sistema de documentación integral que busca:
-- Estandarizar procesos operativos
-- Clarificar roles y responsabilidades
-- Establecer métricas de rendimiento (KPIs)
-- Facilitar la mejora continua
+MOHI es un sistema de gestión integral que combina tres metodologías principales:
+- Autonomía Operativa (Holacracy)
+- Objetivos y Resultados (OKR)
+- Mejora Continua (Lean)
 
-### Metodologías Integradas
-
-1. **Holacracy para Autonomía Operativa**
-   - Toma de decisiones distribuida
-   - Roles claros y adaptables
-   - Resolución efectiva de tensiones
-
-2. **OKR para Objetivos y Resultados**
-   - Metas claras y medibles
-   - Alineación estratégica
-   - Seguimiento continuo
-
-3. **Lean para Mejora Continua**
-   - Optimización de procesos
-   - Eliminación de desperdicios
-   - Mejora constante
-
-## 🛠️ Tecnologías Utilizadas
-
-- Jekyll 4.3.2
-- Just the Docs theme
-- GitHub Pages
-- GitHub Actions
-
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 MOHI/
-│
-├── _config.yml           # Configuración de Jekyll
-├── Gemfile              # Dependencias de Ruby
-├── index.md             # Página principal
-│
-├── assets/              # Recursos estáticos
-│   ├── css/            # Estilos personalizados
-│   └── images/         # Imágenes y logos
-│
-├── _sass/              # Estilos SASS
-│   └── color_schemes/  # Esquemas de color personalizados
-│
-└── departamentos/      # Documentación por departamento
-    ├── recepcion/     
-    └── housekeeping/
+├── _config.yml                # Configuración Jekyll
+├── index.md                   # Página principal
+├── assets/                    # Recursos estáticos
+│   ├── css/                  # Estilos personalizados
+│   ├── images/               # Imágenes y logos
+│   └── templates/            # Plantillas reutilizables
+├── departamentos/            # Documentación por departamento
+│   ├── administracion/
+│   ├── cocina/
+│   ├── contabilidad/
+│   ├── housekeeping/
+│   ├── mantenimiento/
+│   ├── recepcion/
+│   └── restaurante/
+└── metodologia/              # Documentación metodológica
 ```
 
-## 🚀 Despliegue
+## Estado Actual
 
-El sitio se despliega automáticamente en GitHub Pages a través de GitHub Actions cuando se hace push a la rama main.
+- ✅ Estructura base del proyecto
+- ✅ Configuración de Jekyll y tema Just-the-docs
+- ✅ Navegación principal configurada
+- ✅ Contenido base para todos los departamentos
+- ✅ Sistema de búsqueda habilitado
+- ✅ Estilos personalizados implementados
 
-### Flujo de Despliegue
+## Próximos Pasos
 
-1. Push a la rama main
-2. GitHub Actions ejecuta el workflow de Jekyll
-3. El sitio se construye y despliega
-4. Disponible en: https://santiago8781.github.io/MOHI/
+1. Expandir contenido departamental
+2. Agregar documentación de procesos detallada
+3. Implementar sistema de KPIs
+4. Desarrollar sección de metodología
+5. Agregar formularios y plantillas
 
-## 💡 Características
+## Desarrollo Local
 
-- 🔍 Búsqueda integrada
-- 📱 Diseño responsive
-- 🎨 Tema personalizado con colores de Hotel Italia
-- 📖 Navegación intuitiva
-- 🔄 Despliegue automático
-
-## ⚙️ Configuración Local
-
-Para ejecutar el sitio localmente:
-
-1. Clonar el repositorio:
+1. Clonar el repositorio
    ```bash
    git clone https://github.com/santiago8781/MOHI.git
    ```
 
-2. Instalar dependencias:
+2. Instalar dependencias
    ```bash
    bundle install
    ```
 
-3. Ejecutar el servidor:
+3. Ejecutar servidor local
    ```bash
    bundle exec jekyll serve
    ```
 
-4. Visitar `http://localhost:4000/MOHI/`
+## Contribución
 
-## 📝 Mantenimiento
-
-Para actualizar la documentación:
-
-1. Crear o editar archivos markdown en la carpeta correspondiente
-2. Hacer commit de los cambios
-3. Push a la rama main
-4. El sitio se actualizará automáticamente
-
-## 👥 Contribución
-
-1. Fork del repositorio
-2. Crear una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
-3. Commit de tus cambios (`git commit -m 'feat: Agrega nueva característica'`)
+1. Fork del proyecto
+2. Crear rama feature (`git checkout -b feature/NuevaCaracteristica`)
+3. Commit cambios (`git commit -am 'Add: nueva característica'`)
 4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
-5. Crear un Pull Request
+5. Crear Pull Request
 
-## 📄 Licencia
+## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-
-## 📬 Contacto
-
-Hotel Italia - [Website](https://hotelitalia.com.ec)
+Este proyecto es propiedad de Hotel Italia. Todos los derechos reservados © 2025.

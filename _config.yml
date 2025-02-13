@@ -32,7 +32,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Footer content
-footer_content: "Copyright &copy; 2024 Hotel Italia"
+footer_content: "Copyright &copy; 2025 Hotel Italia"
 
 plugins:
   - jekyll-seo-tag
