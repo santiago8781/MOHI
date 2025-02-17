@@ -38,7 +38,13 @@ El Marco Operativo Hotel Italia (MOHI) es un sistema integrado que combina tres 
 
 ## Enlaces Rápidos
 
+- [Gerencia](./gerencia)
+- [Departamentos](./departamentos)
 - [Metodología](./metodologia)
-- [Procesos](./procesos)
-- [KPIs](./kpis)
-- [Formularios](./formularios)
+- [Recursos](./recursos)
+
+### Accesos Directos
+- [Organigrama](./gerencia/organigrama)
+- [KPIs](./recursos/kpis)
+- [Formularios](./recursos/formularios)
+- [Manuales](./recursos/manuales)
