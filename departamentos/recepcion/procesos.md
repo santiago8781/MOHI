@@ -1,92 +1,61 @@
-# Procesos - Recepción
+---
+layout: default
+title: Procesos Recepción
+parent: Recepción
+grand_parent: Departamentos
+nav_order: 3
+---
 
-## Resumen del Departamento
-Recepción es el centro neurálgico del hotel, responsable del primer y último contacto con los huéspedes. Gestiona check-in/out, reservas, consultas, y coordina con otros departamentos para asegurar una experiencia excepcional.
+# Procesos de Recepción
 
 ## Procesos Principales
 
-### Check-in
+### 1. Check-in
+1. Bienvenida al huésped
+2. Verificación de reserva
+3. Registro de documentación
+4. Cobro y garantías
+5. Entrega de llaves
+6. Información del hotel
 
-#### Objetivo
-Proporcionar una bienvenida eficiente y cálida, completando el registro del huésped según estándares del hotel.
+### 2. Check-out
+1. Revisión de consumos
+2. Generación de factura
+3. Proceso de pago
+4. Encuesta de satisfacción
+5. Despedida
 
-#### Responsables
-- Principal: Recepcionista de turno
-- Secundario: Bell boy
-- Supervisión: Supervisor de turno
+### 3. Reservas
+1. Recepción de solicitud
+2. Verificación de disponibilidad
+3. Cotización
+4. Confirmación
+5. Seguimiento
 
-#### Pasos del Proceso
-1. Preparación Pre-llegada
-   - Revisar llegadas del día
-   - Verificar asignación de habitaciones
-   - Preparar llaves y welcome kit
+### 4. Gestión de Habitaciones
+1. Asignación
+2. Coordinación con Housekeeping
+3. Control de estado
+4. Manejo de incidencias
 
-2. Recibimiento
-   - Saludar cordialmente
-   - Confirmar reserva
-   - Solicitar identificación
+## Flujos de Trabajo
 
-3. Registro
-   - Verificar datos en sistema
-   - Procesar pago/garantía
-   - Explicar servicios del hotel
+```mermaid
+graph TD
+    A[Llegada Cliente] --> B{¿Tiene Reserva?}
+    B -->|Sí| C[Verificar Reserva]
+    B -->|No| D[Verificar Disponibilidad]
+    C --> E[Proceso Check-in]
+    D -->|Hay disponibilidad| E
+    D -->|No hay disponibilidad| F[Ofrecer Alternativas]
+    E --> G[Asignar Habitación]
+    G --> H[Entrega Llaves]
+```
 
-4. Entrega de Habitación
-   - Entregar llaves
-   - Explicar ubicación y accesos
-   - Coordinar con bell boy
+## Estándares de Servicio
 
-#### Documentos Relacionados
-- Formato de registro
-- Política de pagos
-- Guía de servicios
-
-### Check-out
-
-#### Objetivo
-Asegurar una salida eficiente y obtener retroalimentación del huésped.
-
-#### Pasos del Proceso
-1. Preparación
-   - Revisar cuenta
-   - Verificar consumos pendientes
-   - Preparar factura preliminar
-
-2. Proceso de Salida
-   - Confirmar consumos
-   - Procesar pago final
-   - Solicitar retroalimentación
-
-### Gestión de Reservas
-
-#### Objetivo
-Maximizar la ocupación manteniendo un sistema eficiente de reservas.
-
-#### Pasos del Proceso
-1. Recepción de Solicitud
-   - Vía telefónica/email/web
-   - Verificar disponibilidad
-   - Cotizar según políticas
-
-2. Confirmación
-   - Verificar datos
-   - Procesar garantía
-   - Enviar confirmación
-
-## Procedimientos de Emergencia
-
-### Emergencias Médicas
-1. Llamar a emergencias (911)
-2. Notificar a supervisor
-3. Documentar incidente
-
-### Quejas de Huéspedes
-1. Escuchar atentamente
-2. Documentar situación
-3. Ofrecer solución inmediata
-4. Escalar si es necesario
-
-## Mejora Continua
-- Reuniones semanales de retroalimentación
-- Análisis mensual de indicadores
-- Actualización trimestral de procedimientos
+### Tiempos de Respuesta
+- Check-in: 8 minutos máximo
+- Check-out: 5 minutos máximo
+- Respuesta a solicitudes: 10 minutos máximo
+- Solución de incidencias: 30 minutos máximo

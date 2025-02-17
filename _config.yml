@@ -8,8 +8,17 @@ theme: just-the-docs
 color_scheme: light
 
 # Enable navigation
+# Navigation settings
 navigation:
   enabled: true
+
+# Define el orden de las secciones principales
+nav_order:
+  - Inicio
+  - Gerencia
+  - Departamentos
+  - Metodología
+  - Recursos
 
 # Sort pages by title by default
 sort:

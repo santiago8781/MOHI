@@ -2,6 +2,7 @@
 layout: home
 title: Inicio
 nav_order: 1
+permalink: /
 ---
 
 # Marco Operativo Hotel Italia

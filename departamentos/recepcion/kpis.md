@@ -1,37 +1,40 @@
-# KPIs - Recepción
+---
+layout: default
+title: KPIs Recepción
+parent: Recepción
+grand_parent: Departamentos
+nav_order: 2
+---
 
-## Indicadores Diarios - Turno
+# KPIs Departamento de Recepción
 
-| KPI | Descripción | Meta | Método de Medición | Responsable |
-|-----|-------------|------|-------------------|-------------|
-| Ocupación Diaria | Porcentaje de habitaciones ocupadas | >70% | Sistema de reservas | Recepcionista de turno |
-| Tiempo de Check-in | Tiempo promedio de proceso de check-in | <10 min | Sistema de reservas | Recepcionista de turno |
-| Satisfacción del Cliente | Calificación promedio de atención | >4.5/5 | Encuesta post check-in | Recepcionista de turno |
+## Indicadores Principales
 
-## Indicadores Semanales
+### 1. Satisfacción del Cliente
+- NPS (Net Promoter Score)
+- Calificación en OTAs
+- Tiempo de respuesta a solicitudes
 
-| KPI | Descripción | Meta | Método de Medición | Responsable |
-|-----|-------------|------|-------------------|-------------|
-| RevPAR | Ingreso por habitación disponible | >$50 | Sistema de reservas | Supervisor |
-| Tasa de Conversión | Reservas confirmadas vs consultas | >40% | CRM | Recepcionista |
-| Eficiencia en Respuestas | Tiempo promedio de respuesta a consultas | <2 horas | CRM | Recepcionista |
+### 2. Eficiencia Operativa
+- Tiempo promedio de check-in
+- Tiempo promedio de check-out
+- Tasa de errores en facturación
 
-## Indicadores Mensuales
+### 3. Rendimiento Financiero
+- RevPAR (Revenue per Available Room)
+- ADR (Average Daily Rate)
+- Tasa de conversión de reservas
 
-| KPI | Descripción | Meta | Método de Medición | Responsable |
-|-----|-------------|------|-------------------|-------------|
-| ADR | Tarifa promedio diaria | >$80 | Sistema de reservas | Supervisor |
-| Tasa de Cancelación | Porcentaje de reservas canceladas | <10% | Sistema de reservas | Supervisor |
-| Retención de Clientes | Porcentaje de huéspedes repetidos | >30% | CRM | Supervisor |
+### 4. Gestión de Inventario
+- Ocupación
+- Pick-up diario
+- Forecast accuracy
 
-## Dashboard y Reportes
+## Metas 2025
 
-### Visualización
-- Dashboard en tiempo real en sistema de reservas
-- Reportes diarios automatizados
-- Actualización cada 24 horas
-
-### Acciones Correctivas
-- Reunión diaria para revisión de KPIs no alcanzados
-- Plan de acción inmediato para desviaciones mayores al 15%
-- Seguimiento semanal de acciones correctivas
+| Indicador | Meta | Actual | Tendencia |
+|-----------|------|---------|-----------|
+| NPS | >80 | 75 | ↗️ |
+| Tiempo Check-in | <8 min | 10 min | ↘️ |
+| RevPAR | +15% | +8% | ↗️ |
+| Ocupación | >75% | 68% | ↗️ |

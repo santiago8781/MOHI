@@ -1,101 +1,58 @@
-# Responsabilidades - Recepción
+---
+layout: default
+title: Responsabilidades Recepción
+parent: Recepción
+grand_parent: Departamentos
+nav_order: 4
+---
 
-## Estructura del Departamento
+# Responsabilidades de Recepción
 
-### Organigrama
-```mermaid
-graph TD
-    A[Supervisor de Recepción] --> B[Recepcionista Turno Mañana]
-    A --> C[Recepcionista Turno Tarde]
-    A --> D[Recepcionista Turno Noche]
-    A --> E[Recepcionista Volante]
-```
+## Roles
 
-## Roles y Responsabilidades
-
-### Supervisor de Recepción
-
-#### Responsabilidades Principales
-- Supervisión general del departamento
-- Gestión de personal y turnos
-- Manejo de situaciones especiales
-- Coordinación con otros departamentos
-
-#### Responsabilidades Diarias
-- Revisión de reportes de turno
-- Verificación de ocupación y tarifas
-- Supervisión de estándares de servicio
-- Control de caja y documentación
-
-#### Responsabilidades Semanales
-- Elaboración de horarios
-- Análisis de KPIs
-- Reuniones de coordinación
-- Control de suministros
+### Jefe de Recepción
+- Supervisión del equipo
+- Gestión de turnos
+- Control de indicadores
+- Resolución de incidencias nivel 2
+- Coordinación interdepartamental
 
 ### Recepcionista
+- Atención al cliente
+- Gestión de reservas
+- Check-in/Check-out
+- Facturación
+- Resolución de incidencias nivel 1
 
-#### Responsabilidades Principales
-- Atención al huésped
-- Gestión de check-in/out
-- Manejo de reservas
-- Control de caja
+### Auditor Nocturno
+- Cierre diario
+- Auditoría de transacciones
+- Reportes nocturnos
+- Seguridad nocturna
+- Apoyo a huéspedes
 
-#### Responsabilidades Diarias
-- Verificar llegadas/salidas
-- Actualizar estado de habitaciones
-- Gestionar correspondencia
-- Atender solicitudes de huéspedes
+## Matriz de Responsabilidades
 
-#### Responsabilidades por Turno
+### Operaciones Diarias
+| Actividad | Jefe | Recepcionista | Auditor |
+|-----------|------|---------------|----------|
+| Check-in | S | R | R |
+| Check-out | S | R | - |
+| Reservas | A | R | - |
+| Reportes | R | C | R |
 
-##### Turno Mañana (7:00 - 15:00)
-- Gestión principal de check-out
-- Actualización de housekeeping
-- Reporte de ocupación diaria
+*R: Responsable, A: Aprueba, C: Consulta, S: Supervisa*
 
-##### Turno Tarde (15:00 - 23:00)
-- Gestión principal de check-in
-- Coordinación con restaurante
-- Cierre de producción diaria
+## Niveles de Autoridad
 
-##### Turno Noche (23:00 - 7:00)
-- Auditoría nocturna
-- Reportes diarios
-- Control de seguridad
+### Decisiones Autónomas
+- Ajustes en tarifas (±15%)
+- Cambios de habitación
+- Compensaciones menores
+- Gestión de quejas nivel 1
 
-### Interacción con Otros Departamentos
-
-- Housekeeping
-  - Coordinación de estados de habitación
-  - Reporte de mantenimiento
-  - Frecuencia: Continua
-
-- Restaurante
-  - Reservas de mesas
-  - Cargos a habitación
-  - Frecuencia: Diaria
-
-- Mantenimiento
-  - Reporte de averías
-  - Seguimiento de reparaciones
-  - Frecuencia: Según necesidad
-
-## Horarios y Turnos
-- Turno Mañana: 7:00 - 15:00
-- Turno Tarde: 15:00 - 23:00
-- Turno Noche: 23:00 - 7:00
-- Descansos: 1 hora por turno
-- Rotación: Mensual
-
-## Capacitación y Desarrollo
-- Inducción inicial: 1 semana
-- Capacitación en sistemas: 2 semanas
-- Evaluación mensual de desempeño
-- Actualización semestral de procedimientos
-
-## Políticas Específicas
-- Puntualidad absoluta en cambios de turno
-- Uniforme completo y presentación impecable
-- Protocolo de comunicación estandarizado
-- Manejo confidencial de información
+### Requieren Aprobación
+- Descuentos mayores
+- Compensaciones significativas
+- Cambios en políticas
+- Gestión de quejas nivel 2
