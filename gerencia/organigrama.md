@@ -9,6 +9,8 @@ nav_order: 2
 
 El organigrama refleja nuestra estructura organizacional basada en principios de Holacracy, permitiendo autonomía y toma de decisiones distribuida.
 
+![Organigrama Hotel Italia](/assets/images/organigrama.png)
+
 ## Niveles Organizacionales
 
 ### Gerencia General
@@ -33,9 +35,3 @@ El organigrama refleja nuestra estructura organizacional basada en principios de
 - **Compras**: Adquisiciones y proveedores
 - **Marketing**: Promoción y ventas
 - **Sistemas**: Soporte tecnológico
-
-## Notas sobre la Estructura
-- Basada en principios de Holacracy
-- Permite toma de decisiones distribuida
-- Fomenta la autonomía departamental
-- Facilita la comunicación interdepartamental
