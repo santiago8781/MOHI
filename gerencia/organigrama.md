@@ -7,59 +7,35 @@ nav_order: 2
 
 # Organigrama Hotel Italia
 
-```mermaid
-graph TB
-    Gerencia[Gerencia General] --> Admin[Administración]
-    Gerencia --> Operaciones[Jefe Operaciones]
-    
-    Admin --> Contabilidad
-    Admin --> RRHH[Recursos Humanos]
-    Admin --> Compras
-    
-    Operaciones --> Recepcion[Recepción]
-    Operaciones --> Housekeeping
-    Operaciones --> Restaurante
-    Operaciones --> Mantenimiento
-    
-    Restaurante --> Cocina
-    
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
-    classDef dept fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
-    
-    class Gerencia,Admin,Operaciones dept;
-```
+El organigrama refleja nuestra estructura organizacional basada en principios de Holacracy, permitiendo autonomía y toma de decisiones distribuida.
 
-## Estructura Organizacional
+## Niveles Organizacionales
 
-### Niveles Jerárquicos
-1. Gerencia General
-   - Dirección estratégica
-   - Toma de decisiones ejecutivas
-   - Gestión de stakeholders
+### Gerencia General
+- Dirección estratégica
+- Toma de decisiones ejecutivas
+- Gestión de stakeholders
 
-2. Jefaturas
-   - Administración
-   - Operaciones
+### Jefaturas
+- **Operaciones**: Responsable de la operación hotelera
+- **Administrativo**: Responsable de la gestión administrativa
 
-3. Departamentos Operativos
-   - Recepción
-   - Housekeeping
-   - Restaurante
-   - Mantenimiento
-   - Cocina
+### Departamentos Operativos
+- **Recepción**: Front desk y atención al huésped
+- **Housekeeping**: Limpieza y mantenimiento de habitaciones
+- **Mantenimiento**: Mantenimiento de instalaciones
+- **Restaurante**: Servicio de alimentos y bebidas
+- **Cocina**: Producción de alimentos
 
-4. Departamentos Administrativos
-   - Contabilidad
-   - Recursos Humanos
-   - Compras
+### Departamentos Administrativos
+- **Contabilidad**: Gestión financiera
+- **Recursos Humanos**: Gestión del personal
+- **Compras**: Adquisiciones y proveedores
+- **Marketing**: Promoción y ventas
+- **Sistemas**: Soporte tecnológico
 
-## Roles y Responsabilidades
-
-Cada posición en el organigrama tiene roles y responsabilidades claramente definidos siguiendo los principios de Holacracy:
-
-- Autonomía en la toma de decisiones
-- Responsabilidades claras
-- Indicadores de desempeño medibles
-- Objetivos alineados con la estrategia
-
-Para más detalles sobre roles específicos, consultar la documentación de cada departamento.
+## Notas sobre la Estructura
+- Basada en principios de Holacracy
+- Permite toma de decisiones distribuida
+- Fomenta la autonomía departamental
+- Facilita la comunicación interdepartamental

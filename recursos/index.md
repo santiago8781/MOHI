@@ -1,53 +1,30 @@
 ---
 layout: default
 title: Recursos
-nav_order: 4
+nav_order: 5
 has_children: true
 ---
 
 # Recursos
 
-## Documentación
+## Herramientas y Documentación
 
-### Manuales
-- Operativos
-- Procesos
-- Sistemas
-- Capacitación
+### [Formularios](./formularios)
+- Documentos operativos
+- Plantillas de registro
+- Formatos estándar
 
-### Formularios
-- Check-in/Check-out
-- Mantenimiento
-- Housekeeping
-- Reportes
+### [Templates](./templates)
+- Documentos base
+- Formatos corporativos
+- Presentaciones estándar
 
-### Templates
-- Documentos estándar
-- Presentaciones
-- Reportes
-- Evaluaciones
+### [Manuales](./manuales)
+- Guías operativas
+- Procedimientos
+- Tutoriales
 
-## Sistemas
-
-### Software
-- PMS
-- Contabilidad
-- Mantenimiento
-- Recursos Humanos
-
-### Accesos
-- Credenciales
-- Permisos
-- Roles
-
-## Capacitación
-
-### Material
-- Guías
-- Videos
-- Presentaciones
-
-### Programas
-- Inducción
-- Actualización
-- Especialización
+### [Sistemas](./sistemas)
+- Software hotelero
+- Herramientas de gestión
+- Plataformas operativas

@@ -3,6 +3,7 @@ layout: default
 title: Recepción
 parent: Departamentos
 nav_order: 1
+has_children: true
 ---
 
 # Departamento de Recepción
@@ -34,28 +35,3 @@ Este departamento opera bajo el Marco Operativo Hotel Italia (MOHI), que integra
 - Reuniones de mejora semanales
 - Mapeo de desperdicios
 - Estandarización de procesos
-
-## Documentación Relacionada
-
-- [Decisiones Autónomas](decisiones-autonomas.md)
-- [Objetivos OKR](objetivos-okr.md)
-- [Procesos Lean](procesos-lean.md)
-- [KPIs](kpis/index.md)
-- [Mejora Continua](mejora-continua/index.md)
-
-## Integración con Otros Departamentos
-
-### Housekeeping
-- Estado de habitaciones
-- Priorización de limpieza
-- Gestión de amenities
-
-### Restaurante
-- Reservas
-- Room service
-- Facturación
-
-### Mantenimiento
-- Reporte de incidencias
-- Seguimiento de reparaciones
-- Bloqueo de habitaciones
