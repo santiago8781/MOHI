@@ -1,3 +1,10 @@
+---
+layout: default
+title: Recepción
+parent: Departamentos
+nav_order: 1
+---
+
 # Departamento de Recepción
 
 ## Marco Operativo
