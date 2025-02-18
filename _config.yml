@@ -4,109 +4,22 @@ baseurl: ""
 url: "https://mohi.hotelitalia.com.ec"
 
 # Theme settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 color_scheme: light
 
-collections:
-  inicio:
-    permalink: "/:collection/:path/"
-    output: true
-  gerencia:
-    permalink: "/:collection/:path/"
-    output: true
-  administracion:
-    permalink: "/:collection/:path/"
-    output: true
-  cocina:
-    permalink: "/:collection/:path/"
-    output: true
-  contabilidad:
-    permalink: "/:collection/:path/"
-    output: true
-  departamentos:
-    permalink: "/:collection/:path/"
-    output: true
-  metodologia:
-    permalink: "/:collection/:path/"
-    output: true
-  recursos:
-    permalink: "/:collection/:path/"
-    output: true
-  mantenimiento:
-    permalink: "/:collection/:path/"
-    output: true
-  restaurante:
-    permalink: "/:collection/:path/"
-    output: true
-  procesos:
-    permalink: "/:collection/:path/"
-    output: true
-  formularios:
-    permalink: "/:collection/:path/"
-    output: true
-  sistemas:
-    permalink: "/:collection/:path/"
-    output: true
-  reportes:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    inicio:
-      name: Inicio
-      nav_order: 1
-    gerencia:
-      name: Gerencia
-      nav_order: 2
-    administracion:
-      name: Administración
-      nav_order: 3
-    cocina:
-      name: Cocina
-      nav_order: 4
-    contabilidad:
-      name: Contabilidad
-      nav_order: 5
-    departamentos:
-      name: Departamentos
-      nav_order: 6
-    metodologia:
-      name: Metodología
-      nav_order: 7
-    recursos:
-      name: Recursos
-      nav_order: 8
-    mantenimiento:
-      name: Mantenimiento
-      nav_order: 9
-    restaurante:
-      name: Restaurante
-      nav_order: 10
-    procesos:
-      name: Procesos
-      nav_order: 11
-    formularios:
-      name: Formularios
-      nav_order: 12
-    sistemas:
-      name: Sistemas
-      nav_order: 13
-    reportes:
-      name: Reportes
-      nav_order: 14
-
-# Enable search
-search_enabled: true
-
-# Aux links for the upper right navigation
+# Auxiliary links
 aux_links:
   "MOHI en GitHub":
     - "//github.com/santiago8781/MOHI"
 
+# Makes Aux links open in a new tab
 aux_links_new_tab: true
 
-footer_content: "Copyright &copy; 2025 Hotel Italia"
+# Enable search
+search_enabled: true
 
-plugins:
-  - jekyll-seo-tag
+# Enable copy button on code blocks
+enable_copy_code_button: true
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2025 Hotel Italia"
