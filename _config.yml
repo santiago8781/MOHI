@@ -7,6 +7,95 @@ url: "https://mohi.hotelitalia.com.ec"
 theme: just-the-docs
 color_scheme: light
 
+collections:
+  inicio:
+    permalink: "/:collection/:path/"
+    output: true
+  gerencia:
+    permalink: "/:collection/:path/"
+    output: true
+  administracion:
+    permalink: "/:collection/:path/"
+    output: true
+  cocina:
+    permalink: "/:collection/:path/"
+    output: true
+  contabilidad:
+    permalink: "/:collection/:path/"
+    output: true
+  departamentos:
+    permalink: "/:collection/:path/"
+    output: true
+  metodologia:
+    permalink: "/:collection/:path/"
+    output: true
+  recursos:
+    permalink: "/:collection/:path/"
+    output: true
+  mantenimiento:
+    permalink: "/:collection/:path/"
+    output: true
+  restaurante:
+    permalink: "/:collection/:path/"
+    output: true
+  procesos:
+    permalink: "/:collection/:path/"
+    output: true
+  formularios:
+    permalink: "/:collection/:path/"
+    output: true
+  sistemas:
+    permalink: "/:collection/:path/"
+    output: true
+  reportes:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    inicio:
+      name: Inicio
+      nav_order: 1
+    gerencia:
+      name: Gerencia
+      nav_order: 2
+    administracion:
+      name: Administración
+      nav_order: 3
+    cocina:
+      name: Cocina
+      nav_order: 4
+    contabilidad:
+      name: Contabilidad
+      nav_order: 5
+    departamentos:
+      name: Departamentos
+      nav_order: 6
+    metodologia:
+      name: Metodología
+      nav_order: 7
+    recursos:
+      name: Recursos
+      nav_order: 8
+    mantenimiento:
+      name: Mantenimiento
+      nav_order: 9
+    restaurante:
+      name: Restaurante
+      nav_order: 10
+    procesos:
+      name: Procesos
+      nav_order: 11
+    formularios:
+      name: Formularios
+      nav_order: 12
+    sistemas:
+      name: Sistemas
+      nav_order: 13
+    reportes:
+      name: Reportes
+      nav_order: 14
+
 # Enable search
 search_enabled: true
 
@@ -15,27 +104,9 @@ aux_links:
   "MOHI en GitHub":
     - "//github.com/santiago8781/MOHI"
 
-# Makes Aux links open in a new tab
 aux_links_new_tab: true
 
-# Enable or disable the site search
-search_enabled: true
-
-# Sort order for navigation links
-nav_sort: case_sensitive
-
-# External navigation links
-nav_external_links: []
-
-# Footer content
 footer_content: "Copyright &copy; 2025 Hotel Italia"
-
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
-
-# Color scheme
-color_scheme: light
 
 plugins:
   - jekyll-seo-tag
