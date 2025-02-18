@@ -4,10 +4,13 @@ baseurl: ""
 url: "https://mohi.hotelitalia.com.ec"
 
 # Theme settings
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 color_scheme: light
 
-# Auxiliary links
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
 aux_links:
   "MOHI en GitHub":
     - "//github.com/santiago8781/MOHI"
@@ -15,11 +18,8 @@ aux_links:
 # Makes Aux links open in a new tab
 aux_links_new_tab: true
 
-# Enable search
-search_enabled: true
-
-# Enable copy button on code blocks
-enable_copy_code_button: true
-
-# Footer content appears at the bottom of every page's main content
+# Footer content
 footer_content: "Copyright &copy; 2025 Hotel Italia"
+
+plugins:
+  - jekyll-seo-tag
