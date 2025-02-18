@@ -1,8 +1,7 @@
 ---
-layout: home
+layout: default
 title: Inicio
 nav_order: 1
-has_children: false
 permalink: /
 ---
 
@@ -19,34 +18,16 @@ Sistema Integrado de Gestión Hotelera
 El Marco Operativo Hotel Italia (MOHI) es un sistema integrado que combina tres metodologías probadas:
 
 ### 1. Autonomía Operativa (Holacracy)
-- Toma de decisiones distribuida: Empoderando a cada miembro del equipo
-- Roles claros y adaptables: Definiendo responsabilidades con flexibilidad
-- Resolución efectiva de tensiones: Abordando desafíos de manera sistemática
+- Toma de decisiones distribuida
+- Roles claros y adaptables
+- Resolución efectiva de tensiones
 
 ### 2. Objetivos y Resultados (OKR)
-- Metas claras y medibles: Estableciendo objetivos cuantificables
-- Alineación estratégica: Conectando acciones con la visión del hotel
-- Seguimiento continuo: Monitoreando el progreso en tiempo real
+- Metas claras y medibles
+- Alineación estratégica
+- Seguimiento continuo
 
 ### 3. Mejora Continua (Lean)
-- Optimización de procesos: Eliminando ineficiencias operativas
-- Eliminación de desperdicios: Maximizando recursos disponibles
-- Mejora constante: Innovando continuamente nuestros servicios
-
-## Departamentos
-
-- [Recepción]({{ site.baseurl }}/departamentos/recepcion)
-- [Housekeeping]({{ site.baseurl }}/departamentos/housekeeping)
-
-## Enlaces Rápidos
-
-- [Gerencia](./gerencia)
-- [Departamentos](./departamentos)
-- [Metodología](./metodologia)
-- [Recursos](./recursos)
-
-### Accesos Directos
-- [Organigrama](./gerencia/organigrama)
-- [KPIs](./recursos/kpis)
-- [Formularios](./recursos/formularios)
-- [Manuales](./recursos/manuales)
+- Optimización de procesos
+- Eliminación de desperdicios
+- Mejora constante
