@@ -1,30 +1,34 @@
 ---
 layout: default
 title: Recursos
-nav_order: 5
+nav_order: 4
 has_children: true
+permalink: /recursos/
 ---
 
 # Recursos
 
-## Herramientas y Documentación
+Esta sección contiene todos los recursos del hotel, incluyendo:
 
-### [Formularios](./formularios)
-- Documentos operativos
-- Plantillas de registro
-- Formatos estándar
+## Documentación
+- Formularios y plantillas
+- Manuales operativos
+- Documentación de sistemas
 
-### [Templates](./templates)
-- Documentos base
-- Formatos corporativos
-- Presentaciones estándar
+## Metodologías
+- Holacracy (Autonomía Operativa)
+- Lean (Mejora Continua)
+- OKR (Objetivos y Resultados Clave)
 
-### [Manuales](./manuales)
-- Guías operativas
-- Procedimientos
-- Tutoriales
+## Herramientas
+- Procesos documentados
+- Sistemas y aplicaciones
+- Reportes y análisis
 
-### [Sistemas](./sistemas)
-- Software hotelero
-- Herramientas de gestión
-- Plataformas operativas
+## Enlaces Rápidos
+- [Formularios](/recursos/formularios/)
+- [Metodología](/recursos/metodologia/)
+- [Procesos](/recursos/procesos/)
+- [Reportes](/recursos/reportes/)
+- [Sistemas](/recursos/sistemas/)
+- [Manuales](/recursos/manuales/)

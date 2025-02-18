@@ -7,29 +7,66 @@ url: "https://mohi.hotelitalia.com.ec"
 theme: just-the-docs
 color_scheme: light
 
-# Enable navigation
 # Navigation settings
-navigation:
-  enabled: true
+nav:
+  - title: Inicio
+    url: /
+    nav_order: 1
+  - title: Gerencia
+    url: /gerencia/
+    nav_order: 2
+    children:
+      - title: Estrategia
+        url: /gerencia/estrategia/
+      - title: Organigrama
+        url: /gerencia/organigrama/
+      - title: Políticas
+        url: /gerencia/politicas/
+      - title: Reuniones
+        url: /gerencia/reuniones/
+  - title: Departamentos
+    url: /departamentos/
+    nav_order: 3
+    children:
+      - title: Administración
+        url: /departamentos/administracion/
+      - title: Cocina
+        url: /departamentos/cocina/
+      - title: Contabilidad
+        url: /departamentos/contabilidad/
+      - title: Housekeeping
+        url: /departamentos/housekeeping/
+      - title: Mantenimiento
+        url: /departamentos/mantenimiento/
+      - title: Recepción
+        url: /departamentos/recepcion/
+      - title: Restaurante
+        url: /departamentos/restaurante/
+  - title: Recursos
+    url: /recursos/
+    nav_order: 4
+    children:
+      - title: Formularios
+        url: /recursos/formularios/
+      - title: Metodología
+        url: /recursos/metodologia/
+        children:
+          - title: Holacracy
+            url: /recursos/metodologia/holacracy/
+          - title: Lean
+            url: /recursos/metodologia/lean/
+          - title: OKR
+            url: /recursos/metodologia/okr/
+      - title: Procesos
+        url: /recursos/procesos/
+      - title: Reportes
+        url: /recursos/reportes/
+      - title: Sistemas
+        url: /recursos/sistemas/
+      - title: Manuales
+        url: /recursos/manuales/
 
-# Define el orden de las secciones principales
-nav_order:
-  - Inicio
-  - Gerencia
-  - Departamentos
-  - Metodología
-  - Recursos
-
-# Sort pages by title by default
-sort:
-  enabled: true
-  by: 'title'
-
-# Navigation structure
-heading_anchors: true
-nav_sort: case_sensitive
-
-# Enable or disable the site search
+# Enable search
 search_enabled: true
 
 # Aux links for the upper right navigation
