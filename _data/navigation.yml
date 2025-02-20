@@ -3,22 +3,27 @@ toc:
     url: /
   - title: Gerencia
     url: /gerencia/
-  - title: Administración
-    url: /administracion/
-  - title: Cocina
-    url: /cocina/
-  - title: Contabilidad
-    url: /contabilidad/
   - title: Departamentos
     url: /departamentos/
+    children:
+      - title: Administración
+        url: /departamentos/administracion/
+      - title: Cocina
+        url: /departamentos/cocina/
+      - title: Contabilidad
+        url: /departamentos/contabilidad/
+      - title: Housekeeping
+        url: /departamentos/housekeeping/
+      - title: Mantenimiento
+        url: /departamentos/mantenimiento/
+      - title: Recepción
+        url: /departamentos/recepcion/
+      - title: Restaurante
+        url: /departamentos/restaurante/
   - title: Metodología
     url: /metodologia/
   - title: Recursos
     url: /recursos/
-  - title: Mantenimiento
-    url: /mantenimiento/
-  - title: Restaurante
-    url: /restaurante/
   - title: Procesos
     url: /procesos/
   - title: Formularios
