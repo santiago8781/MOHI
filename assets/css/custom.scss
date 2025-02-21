@@ -3,18 +3,5 @@
 
 @import "color_schemes/italia";
 
-.side-bar {
-  background-color: #f8f9fc;
-}
-
-.nav-list .nav-list-item .nav-list-link {
-  color: #6610f2;
-}
-
-.nav-list .nav-list-item .nav-list-link:hover {
-  background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 80%, rgba(235, 237, 245, 0) 100%);
-}
-
-.nav-list .nav-list-item .nav-list-link.active {
-  background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 100%);
-}
+// Any additional custom styles can go here
+// This file is kept minimal since we've moved the core styles to the color scheme

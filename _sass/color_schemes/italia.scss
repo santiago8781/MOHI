@@ -1,14 +1,66 @@
-$link-color: #6610f2;
+// Define brand colors
+$italia-purple: #6610f2;
+$italia-light: #f8f9fc;
+$italia-hover: #ebedf5;
 
+// Theme color variables
+$link-color: $italia-purple;
+$body-background-color: $italia-light;
+$sidebar-color: $italia-light;
+$border-color: $italia-hover;
+
+// Navigation styles
 .side-bar {
-  background-color: #f8f9fc;
+  background-color: $sidebar-color;
+
+  // Logo container styles
+  .site-logo {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100px;  // Maximum height for larger screens
+    padding: 1rem;
+
+    img {
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      max-height: 100%;
+      object-fit: contain;
+    }
+  }
 }
 
-.nav-list .nav-list-item .nav-list-link {
-  color: $link-color;
+.nav-list .nav-list-item {
+  .nav-list-link {
+    color: $italia-purple;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-image: linear-gradient(-90deg, $italia-hover 0%, rgba($italia-hover, 0.8) 80%, rgba($italia-hover, 0) 100%);
+    }
+
+    &.active {
+      background-image: linear-gradient(-90deg, $italia-hover 0%, rgba($italia-hover, 0.8) 100%);
+    }
+  }
 }
 
-.nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active {
-  background-image: linear-gradient(-90deg, #ebedf5 0%, rgba(235, 237, 245, 0.8) 100%);
+// Main content area adjustments
+.main {
+  a {
+    color: $italia-purple;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 800px) {
+  .side-bar .site-logo {
+    max-height: 60px;  // Smaller height for mobile
+    padding: 0.5rem;
+  }
 }
