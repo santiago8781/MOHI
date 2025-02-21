@@ -6,6 +6,6 @@ nav_order: 1
 has_children: true
 ---
 
-# Administración
+# Departamento de Administración
 
-Gestión administrativa del hotel.
+Sección dedicada a la gestión administrativa del hotel.

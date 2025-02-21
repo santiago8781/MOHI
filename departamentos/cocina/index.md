@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Cocina
-nav_order: 3
+parent: Departamentos
+nav_order: 2
 has_children: true
 ---
 
