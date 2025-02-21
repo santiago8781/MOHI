@@ -15,17 +15,19 @@ $border-color: $italia-hover;
 
   // Logo container styles
   .site-logo {
-    width: auto;
+    width: 100%;  // Take full width of sidebar
     height: auto;
-    max-width: 100%;
-    max-height: 100px;  // Maximum height for larger screens
-    padding: 1rem;
+    padding: 1.5rem;  // Increased padding
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       width: auto;
-      max-width: 100%;
+      max-width: 95%;  // Slightly less than container to avoid edge touching
       height: auto;
-      max-height: 100%;
+      min-height: 140px;  // Minimum height to ensure visibility
+      max-height: 180px;  // Increased maximum height
       object-fit: contain;
     }
   }
@@ -60,7 +62,11 @@ $border-color: $italia-hover;
 // Responsive adjustments
 @media (max-width: 800px) {
   .side-bar .site-logo {
-    max-height: 60px;  // Smaller height for mobile
-    padding: 0.5rem;
+    padding: 1rem;  // Slightly reduced padding on mobile
+    
+    img {
+      min-height: 100px;  // Smaller minimum height for mobile
+      max-height: 120px;  // Smaller maximum height for mobile
+    }
   }
 }
