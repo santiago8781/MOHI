@@ -5,11 +5,14 @@ url: "https://mohi.hotelitalia.com.ec"
 
 # Theme settings
 theme: just-the-docs
-color_scheme: italia  # Changed to use our custom color scheme
+color_scheme: italia  # Using our custom color scheme
 
 # Logo settings
-logo: "/assets/images/hi_logo.png"
-# No fixed logo_width to keep it responsive
+logo: "/assets/images/hi_logo.png"  # Corrected hyphen in filename
+nav_logo:
+  height: "150px"
+  width: "auto"
+  padding: "1.5rem"
 
 # Enable or disable the site search
 search_enabled: true

@@ -3,5 +3,31 @@
 
 @import "color_schemes/italia";
 
-// Any additional custom styles can go here
-// This file is kept minimal since we've moved the core styles to the color scheme
+// Site logo specific styles
+.site-header {
+  .site-title {
+    padding: 1.5rem !important;
+    
+    img {
+      height: 150px !important;
+      width: auto !important;
+      max-width: none !important;
+    }
+  }
+}
+
+// Force these styles to take precedence
+.site-logo {
+  height: 150px !important;
+  width: auto !important;
+  padding: 1.5rem !important;
+}
+
+// Ensure responsive behavior
+@media (max-width: 800px) {
+  .site-header .site-title img,
+  .site-logo {
+    height: 100px !important;
+    padding: 1rem !important;
+  }
+}
