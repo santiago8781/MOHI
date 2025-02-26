@@ -1,13 +1,17 @@
 // Define brand colors
-$italia-purple: #6610f2;
+$italia-teal: #96c5c5;  // Nuevo color principal basado en el logo
+$italia-teal-dark: #7ab0b0;  // Versión más oscura para hover
 $italia-light: #f8f9fc;
-$italia-hover: #ebedf5;
+$italia-hover: #ecf5f5;  // Ajustado para complementar el color teal
 
 // Theme color variables
-$link-color: $italia-purple;
+$link-color: $italia-teal-dark;
 $body-background-color: $italia-light;
 $sidebar-color: $italia-light;
 $border-color: $italia-hover;
+
+// Button colors
+$btn-primary-color: $italia-teal;
 
 // Navigation styles
 .side-bar {
@@ -35,7 +39,7 @@ $border-color: $italia-hover;
 
 .nav-list .nav-list-item {
   .nav-list-link {
-    color: $italia-purple;
+    color: $italia-teal-dark;
     transition: all 0.2s ease;
 
     &:hover {
@@ -51,12 +55,35 @@ $border-color: $italia-hover;
 // Main content area adjustments
 .main {
   a {
-    color: $italia-purple;
+    color: $italia-teal-dark;
     
     &:hover {
       text-decoration: underline;
     }
   }
+}
+
+// Button styles
+.btn {
+  &.btn-primary {
+    background-color: $italia-teal;
+    background-image: linear-gradient(-180deg, $italia-teal 0%, $italia-teal-dark 90%);
+    
+    &:hover {
+      background-color: $italia-teal-dark;
+    }
+  }
+}
+
+// Search button and other UI elements
+.search-input {
+  &:focus {
+    border-color: $italia-teal;
+  }
+}
+
+.search-result-highlight {
+  color: $italia-teal-dark;
 }
 
 // Responsive adjustments
