@@ -66,4 +66,4 @@ Trabajamos continuamente en la mejora de nuestros procesos:
 {: .highlight }
 
 {: .note }
-Este marco operativo está en constante evolución. Última actualización: Febrero 2025.
+Este marco operativo está en constante evolución. Última actualización: Enero 2026.
