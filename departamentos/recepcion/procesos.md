@@ -19,35 +19,43 @@ Todos los procesos están diseñados para:
 
 ### 1. Gestión de Reservas
 
+{: .note }
+**Sistema**: Todas las reservas se gestionan en **Cloudbeds**. Ver [Guía de Reservaciones](/sistemas/cloudbeds/reservaciones.html) para instrucciones detalladas.
+
 #### 1.1 Captura de Reservas
 1. Recepción de solicitud (directa u OTA)
-2. Verificación de disponibilidad y tarifas
-3. **Aplicación de estrategia de pricing** según demanda
-4. **Oportunidad de upselling** (categoría superior, servicios adicionales)
-5. Confirmación y garantía
-6. Envío de pre-check-in digital
+2. **En Cloudbeds**: Dashboard > Calendar > verificar disponibilidad
+3. **Aplicación de estrategia de pricing** según demanda (ver [Tarifas](/sistemas/cloudbeds/tarifas.html))
+4. **Oportunidad de upselling** (ver [Guía de Upselling](/guias-rapidas/upselling.html))
+5. Crear reserva en Cloudbeds con datos completos del huésped
+6. Sistema envía confirmación automática al email del huésped
 
 #### 1.2 Modificaciones y Cancelaciones
-1. Verificación de políticas aplicables
-2. Gestión de cambios en sistema
+1. **En Cloudbeds**: Buscar reserva > Modify Reservation
+2. Verificación de políticas aplicables
 3. **Oferta de alternativas** para evitar cancelaciones
-4. Seguimiento con huésped
+4. Actualizar en sistema y confirmar con huésped
 
 ### 2. Check-in
 
+{: .note }
+**Sistema**: El check-in se realiza en **Cloudbeds**. Ver [Guía de Check-in](/sistemas/cloudbeds/check-in.html) para el proceso completo. Consultar **Odoo CRM** para historial del huésped.
+
 #### 2.1 Preparación
-1. Revisión de llegadas del día
-2. Pre-asignación de habitaciones (optimización)
-3. Preparación de amenidades especiales
-4. Verificación de paquetes y servicios
+1. **En Cloudbeds**: Dashboard > Today's Arrivals - revisar llegadas del día
+2. **En Odoo CRM**: Consultar perfil del huésped - historial y preferencias
+3. Pre-asignación de habitaciones en Cloudbeds (verificar estado "Clean")
+4. Coordinar amenidades especiales con Housekeeping
 
 #### 2.2 Proceso de Check-in
-1. Bienvenida personalizada y cálida
-2. Verificación de reserva y documentación
-3. **Oferta de upgrades y servicios adicionales** (upselling)
-4. Explicación de servicios del hotel
-5. Proceso de pago/garantía
-6. Entrega de llaves y acompañamiento
+1. Bienvenida personalizada (ver [Guía de Saludos](/guias-rapidas/saludos-huespedes.html))
+2. **En Cloudbeds**: Buscar reserva > verificar detalles con huésped
+3. **Oportunidad de upselling** (ver [Guía de Upselling](/guias-rapidas/upselling.html))
+4. Completar datos en Guest Details (documento, email, teléfono)
+5. Asignar habitación: Room Assignment > seleccionar habitación limpia
+6. Procesar pago/garantía en sección Payments
+7. Click "Check In" para completar
+8. Entrega de llaves e información del hotel
 
 ### 3. Durante la Estadía
 
@@ -66,32 +74,40 @@ Todos los procesos están diseñados para:
 
 ### 4. Check-out
 
+{: .note }
+**Sistemas**: Check-out en **Cloudbeds**, facturación en **Odoo**. Ver [Guía de Check-out](/sistemas/cloudbeds/check-out.html) y [Guía de Facturación](/sistemas/odoo/facturacion.html).
+
 #### 4.1 Preparación
-1. Revisión de salidas del día
-2. Verificación de consumos y cargos
-3. Pre-facturación
+1. **En Cloudbeds**: Dashboard > Today's Departures - revisar salidas
+2. Verificar consumos pendientes (coordinar con Restaurante - Odoo POS)
+3. Pre-facturación: revisar Folio completo en Cloudbeds
 
 #### 4.2 Proceso de Check-out
-1. Saludo y consulta sobre la estancia
-2. Revisión de cargos con huésped
-3. Proceso de pago
-4. **Solicitud de evaluación y feedback**
-5. **Invitación a regresar y programa de fidelización**
-6. Gestión de salida
+1. Saludo y consulta sobre la estancia (ver [Guía de Saludos](/guias-rapidas/saludos-huespedes.html))
+2. **En Cloudbeds**: Abrir reserva > Folio > revisar cargos con huésped
+3. Agregar cargos de último momento si aplica (minibar, etc.)
+4. Procesar pago final en sección Payments
+5. Click "Check Out" para cerrar estancia
+6. **En Odoo**: Generar factura electrónica (SRI)
+7. **Solicitar reseña** en Google/Booking/TripAdvisor
+8. Despedida cálida e invitación a regresar
 
 ### 5. Auditoría Nocturna
 
+{: .note }
+**Sistema**: Reportes y cierre en **Cloudbeds**. Ver [Guía de Reportes](/sistemas/cloudbeds/reportes.html).
+
 #### 5.1 Cierre Diario
-1. Verificación de ocupación y discrepancias
-2. Conciliación de pagos y depósitos
-3. Cierre de caja
-4. Generación de reportes operativos
+1. **En Cloudbeds**: Reports > Manager's Report - verificar ocupación
+2. Conciliación de pagos: Reports > Payments - comparar con caja física
+3. Verificar discrepancias de habitaciones (In-House vs. estado físico)
+4. Generar y revisar reportes operativos
 
 #### 5.2 Preparación del Día Siguiente
-1. Revisión de llegadas
-2. Pre-asignación de habitaciones
-3. Verificación de solicitudes especiales
-4. **Actualización de tarifas** según demanda
+1. **En Cloudbeds**: Dashboard > Tomorrow's Arrivals
+2. Pre-asignación de habitaciones según preferencias
+3. Verificar solicitudes especiales en notas de cada reserva
+4. **Revisar tarifas** según ocupación proyectada (ver [Tarifas](/sistemas/cloudbeds/tarifas.html))
 
 ## Optimización con IA
 
@@ -121,7 +137,7 @@ Utilizamos Claude.ai para potenciar múltiples aspectos de la operación:
    - Análisis de feedback para identificar áreas de mejora
    - Recomendaciones para optimización de tarifas
 
-**Próxima fase**: Integración con sistemas PMS, CRM y herramientas de revenue management.
+**Integración actual**: Claude.ai complementa nuestros sistemas **Cloudbeds** (PMS) y **Odoo** (CRM) para comunicaciones personalizadas y análisis de datos.
 
 ## Estándares de Servicio y Eficiencia
 

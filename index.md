@@ -8,62 +8,97 @@ permalink: /
 # Marco Operativo Hotel Italia
 {: .fs-9 }
 
-Sistema Integrado de Gestión Hotelera que unifica procesos, tecnología y el toque humano que caracteriza la hospitalidad cuencana.
+Tu portal de trabajo. Aquí encontrarás los procedimientos, sistemas y guías que necesitas para brindar un servicio excepcional.
 {: .fs-6 .fw-300 }
 
-[Ver Manual Operativo](/docs/manual){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[Ver Reportes](/docs/reportes){: .btn .fs-5 .mb-4 .mb-md-0 }
+---
+
+## Acceso Rápido
+
+### Sistemas
+
+| Sistema | Acceso | Guía |
+|---------|--------|------|
+| **Cloudbeds** (Reservas, Check-in/out) | [Abrir Cloudbeds](https://hotels.cloudbeds.com){:target="_blank"} | [Ver guía](/sistemas/cloudbeds/) |
+| **Odoo** (POS, CRM, Facturación) | [Abrir Odoo](https://hotelitalia.odoo.com){:target="_blank"} | [Ver guía](/sistemas/odoo/) |
+
+### Guías Más Usadas
+
+| Guía | Descripción |
+|------|-------------|
+| [Check-in en Cloudbeds](/sistemas/cloudbeds/check-in.html) | Proceso paso a paso |
+| [POS Restaurante](/sistemas/odoo/pos.html) | Ventas y cargos a habitación |
+| [Saludos a Huéspedes](/guias-rapidas/saludos-huespedes.html) | Guiones de servicio |
+| [Manejo de Quejas](/guias-rapidas/manejo-quejas.html) | Resolver problemas |
+| [Emergencias](/guias-rapidas/emergencias.html) | Qué hacer en emergencias |
 
 ---
 
-## Gestión Integrada
+## Nuestra Filosofía
 
-Nuestro sistema conecta todas las áreas críticas de operación del hotel a través de procesos documentados y herramientas modernas.
+En Hotel Italia no solo seguimos procedimientos - operamos bajo principios que nos guían en cada decisión:
 
-### Áreas Principales
-
-1. **Operaciones Diarias**
-   - [Gestión de Reservas](/procesos/reservas)
-   - [Mantenimiento y Limpieza](/procesos/mantenimiento)
-   - [Servicio al Cliente](/procesos/servicio)
-
-2. **Administración**
-   - [Control Financiero](/gerencia/finanzas)
-   - [Gestión de Personal](/gerencia/personal)
-   - [Inventario](/gerencia/inventario)
-
-## Innovación en Curso
-
-Trabajamos continuamente en la mejora de nuestros procesos:
-
-- Sistema de gestión de reservas automatizado
-- Integración con plataformas OTA
-- Sistema de mantenimiento preventivo
-{: .mb-5 }
-
-### Próximas Mejoras
-
-| Periodo | Implementación |
-|:--------|:--------------|
-| Q2 2025 | Automatización de check-in/out |
-| Q3 2025 | Sistema de fidelización |
-| Q4 2025 | Previsión de demanda |
-
-## Recursos Rápidos
-
-### Documentación Esencial
-- [Protocolos de Servicio](/recursos/protocolos)
-- [Procedimientos de Emergencia](/recursos/emergencia)
-- [Estándares de Calidad](/recursos/calidad)
-
----
-
-## Actualizaciones Recientes
-
-- Nuevo sistema de reportes implementado
-- Actualización de protocolos de limpieza
-- Integración con channel manager
 {: .highlight }
+**Holacracy**: Tienes autonomía para resolver problemas. No necesitas pedir permiso para hacer lo correcto por el huésped.
+
+{: .highlight }
+**Lean**: Eliminamos desperdicio y buscamos eficiencia. Si un proceso no agrega valor, lo mejoramos.
+
+{: .highlight }
+**OKR**: Medimos resultados. Cada acción contribuye a objetivos claros del hotel.
+
+[Conoce nuestra metodología completa →](/metodologia/)
+
+---
+
+## Por Departamento
+
+### Operaciones
+
+| Departamento | Página Principal | Procesos |
+|--------------|------------------|----------|
+| [Recepción](/departamentos/recepcion/) | Check-in, reservas, atención | [Procesos](/departamentos/recepcion/procesos.html) |
+| [Restaurante](/departamentos/restaurante/) | Servicio de alimentos | [KPIs](/departamentos/restaurante/kpis.html) |
+| [Housekeeping](/departamentos/housekeeping/) | Limpieza y mantenimiento | [Procesos](/departamentos/housekeeping/procesos.html) |
+| [Cocina](/departamentos/cocina/) | Preparación de alimentos | [KPIs](/departamentos/cocina/kpis.html) |
+
+### Soporte
+
+| Departamento | Página Principal |
+|--------------|------------------|
+| [Mantenimiento](/departamentos/mantenimiento/) | Reparaciones y sistemas |
+| [Administración](/departamentos/administracion/) | Compras y personal |
+| [Contabilidad](/departamentos/contabilidad/) | Facturación y finanzas |
+
+---
+
+## Información Útil
+
+### Teléfonos de Emergencia
+
+| Servicio | Número |
+|----------|--------|
+| ECU 911 | **911** |
+| Gerente de Turno | Ext. 100 |
+| Recepción | Ext. 0 |
+
+[Ver directorio completo →](/guias-rapidas/telefonos-importantes.html)
+
+### Recursos Adicionales
+
+- [Frases en Inglés](/guias-rapidas/frases-ingles.html) - Para atender huéspedes extranjeros
+- [Técnicas de Upselling](/guias-rapidas/upselling.html) - Aumentar ventas y satisfacción
+
+---
+
+## Novedades
 
 {: .note }
-Este marco operativo está en constante evolución. Última actualización: Enero 2026.
+**Nuevo**: Guías completas de Cloudbeds y Odoo disponibles en la sección [Sistemas](/sistemas/).
+
+---
+
+{: .highlight }
+Este portal está en constante evolución. ¿Tienes sugerencias? Habla con tu supervisor.
+
+**Última actualización**: Enero 2026
